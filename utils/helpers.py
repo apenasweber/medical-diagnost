@@ -6,20 +6,20 @@ class Helpers:
     @staticmethod
     def save_patient_data(patient_data, patient_id):
         # Salvando dados do paciente em um arquivo json
-        with open(f"pacients_data/{patient_id}.json", "w") as f:
+        with open(f"patients_data/{patient_id}.json", "w") as f:
             json.dump(patient_data, f)
     
     @staticmethod
     def load_patient_data(patient_id):
         # Carregando dados do paciente a partir do arquivo json
-        with open(f"pacients_data/{patient_id}.json", "r") as f:
+        with open(f"patients_data/{patient_id}.json", "r") as f:
             patient_data = json.load(f)
         return patient_data
     
     @staticmethod
     def update_patient_data(patient_data, patient_id):
         # Atualizando dados do paciente no arquivo json
-        with open(f"pacients_data/{patient_id}.json", "w") as f:
+        with open(f"patients_data/{patient_id}.json", "w") as f:
             json.dump(patient_data, f)
     
     @staticmethod

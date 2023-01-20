@@ -25,7 +25,7 @@
 #     }
 #     service.save_patient_data(patient_data)
 #     # Lendo dados do paciente salvos
-#     with open("pacients_data/123.json") as f:
+#     with open("patients_data/123.json") as f:
 #         saved_data = json.load(f)
 #     # Verificando se os dados salvos são iguais aos dados enviados
 #     assert saved_data == patient_data
@@ -43,7 +43,7 @@
     # }
 #     service.save_patient_data(patient_data)
 #     # Lendo dados do paciente salvos
-#     with open("pacients_data/123.json") as f:
+#     with open("patients_data/123.json") as f:
 #         saved_data = json.load(f)
 #     # Verificando se os dados salvos são iguais aos dados enviados
 #     assert saved_data == patient_data
